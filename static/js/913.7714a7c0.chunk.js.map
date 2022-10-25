@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/913.7714a7c0.chunk.js","mappings":"wGAAA,8BAKA,UAHU,CACRA,EAAG,E","sources":["t.js"],"sourcesContent":["import('./t.css');\n\nconst a = {\n  a: 1\n}\nexport default  a;"],"names":["a"],"sourceRoot":""}
