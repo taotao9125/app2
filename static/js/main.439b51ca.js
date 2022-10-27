@@ -1,57 +1,10 @@
-var app2;
 /******/ (function() { // webpackBootstrap
-/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 7902:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+/***/ 8305:
+/***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
-var moduleMap = {
-	"./RemoteBtn": function() {
-		return Promise.all([__webpack_require__.e(82), __webpack_require__.e(728)]).then(function() { return function() { return (__webpack_require__(2502)); }; });
-	},
-	"./HoleApp": function() {
-		return Promise.all([__webpack_require__.e(180), __webpack_require__.e(555), __webpack_require__.e(517), __webpack_require__.e(82), __webpack_require__.e(556), __webpack_require__.e(138), __webpack_require__.e(747), __webpack_require__.e(651), __webpack_require__.e(915)]).then(function() { return function() { return (__webpack_require__(8225)); }; });
-	},
-	"./Othermodule": function() {
-		return Promise.all([__webpack_require__.e(82), __webpack_require__.e(116)]).then(function() { return function() { return (__webpack_require__(2116)); }; });
-	},
-	"./T": function() {
-		return __webpack_require__.e(913).then(function() { return function() { return (__webpack_require__(3913)); }; });
-	},
-	"./RichText": function() {
-		return Promise.all([__webpack_require__.e(180), __webpack_require__.e(777), __webpack_require__.e(82), __webpack_require__.e(556), __webpack_require__.e(747), __webpack_require__.e(165)]).then(function() { return function() { return (__webpack_require__(6801)); }; });
-	},
-	"./Player": function() {
-		return Promise.all([__webpack_require__.e(180), __webpack_require__.e(555), __webpack_require__.e(82), __webpack_require__.e(556), __webpack_require__.e(138), __webpack_require__.e(683)]).then(function() { return function() { return (__webpack_require__(4683)); }; });
-	}
-};
-var get = function(module, getScope) {
-	__webpack_require__.R = getScope;
-	getScope = (
-		__webpack_require__.o(moduleMap, module)
-			? moduleMap[module]()
-			: Promise.resolve().then(function() {
-				throw new Error('Module "' + module + '" does not exist in container.');
-			})
-	);
-	__webpack_require__.R = undefined;
-	return getScope;
-};
-var init = function(shareScope, initScope) {
-	if (!__webpack_require__.S) return;
-	var name = "default"
-	var oldScope = __webpack_require__.S[name];
-	if(oldScope && oldScope !== shareScope) throw new Error("Container initialization failed as it has already been initialized with a different share scope");
-	__webpack_require__.S[name] = shareScope;
-	return __webpack_require__.I(name, initScope);
-};
-
-// This exports getters to disallow modifications
-__webpack_require__.d(exports, {
-	get: function() { return get; },
-	init: function() { return init; }
-});
+Promise.all(/* import() */[__webpack_require__.e(180), __webpack_require__.e(555), __webpack_require__.e(517), __webpack_require__.e(82), __webpack_require__.e(556), __webpack_require__.e(138), __webpack_require__.e(747), __webpack_require__.e(651), __webpack_require__.e(549)]).then(__webpack_require__.bind(__webpack_require__, 8225));
 
 /***/ })
 
@@ -133,7 +86,7 @@ __webpack_require__.d(exports, {
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = function(chunkId) {
 /******/ 			// return url for filenames based on template
-/******/ 			return "static/js/" + chunkId + "." + {"18":"985e4ebf","82":"de36b0e7","116":"1ba7e334","137":"54e82fd1","138":"a1438aa3","164":"0465dee0","165":"94039922","180":"dfa98687","380":"5869cb28","416":"f60c388a","500":"c2dfa3fd","517":"32947da6","530":"6ffbb6ec","555":"d824411e","556":"9b1028c2","562":"8aa1d928","651":"8710c437","683":"d179edcd","728":"8da68956","747":"527663a6","777":"9c2ac870","787":"45145c01","791":"c00f41d1","913":"2b0a9a56","915":"8176bfef"}[chunkId] + ".chunk.js";
+/******/ 			return "static/js/" + chunkId + "." + {"18":"985e4ebf","82":"de36b0e7","138":"a1438aa3","164":"0465dee0","180":"dfa98687","380":"5869cb28","416":"f60c388a","500":"c2dfa3fd","517":"32947da6","549":"c48048eb","555":"d824411e","556":"9b1028c2","651":"8710c437","747":"527663a6","787":"45145c01","791":"c00f41d1"}[chunkId] + ".chunk.js";
 /******/ 		};
 /******/ 	}();
 /******/ 	
@@ -142,7 +95,7 @@ __webpack_require__.d(exports, {
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.miniCssF = function(chunkId) {
 /******/ 			// return url for filenames based on template
-/******/ 			return "static/css/" + chunkId + "." + {"116":"de2f4732","517":"ab8363f0","530":"178ae2e8","728":"9f60ba1a","777":"d02b6773","915":"bac02e38"}[chunkId] + ".chunk.css";
+/******/ 			return "static/css/" + chunkId + "." + {"517":"ab8363f0","549":"bac02e38"}[chunkId] + ".chunk.css";
 /******/ 		};
 /******/ 	}();
 /******/ 	
@@ -418,9 +371,6 @@ __webpack_require__.d(exports, {
 /******/ 		});
 /******/ 		var installedModules = {};
 /******/ 		var moduleToHandlerMapping = {
-/******/ 			8172: function() { return loadSingletonVersionCheckFallback("default", "react", [1,18,2,0], function() { return __webpack_require__.e(791).then(function() { return function() { return __webpack_require__(2791); }; }); }); },
-/******/ 			3410: function() { return loadSingletonVersionCheckFallback("default", "react", [0,15], function() { return __webpack_require__.e(791).then(function() { return function() { return __webpack_require__(2791); }; }); }); },
-/******/ 			2878: function() { return loadSingletonVersionCheckFallback("default", "react", [,[1,17,0,0],[1,16,0,0],[1,15,0,0],[2,0,14,0],1,1,1], function() { return __webpack_require__.e(791).then(function() { return function() { return __webpack_require__(2791); }; }); }); },
 /******/ 			7082: function() { return loadSingletonFallback("default", "react", function() { return __webpack_require__.e(791).then(function() { return function() { return __webpack_require__(2791); }; }); }); },
 /******/ 			4556: function() { return loadSingletonFallback("default", "react-dom", function() { return Promise.all([__webpack_require__.e(164), __webpack_require__.e(416)]).then(function() { return function() { return __webpack_require__(4164); }; }); }); },
 /******/ 			9138: function() { return loadSingletonVersionCheckFallback("default", "react", [,[1,17],[1,16,8],1], function() { return __webpack_require__.e(791).then(function() { return function() { return __webpack_require__(2791); }; }); }); },
@@ -431,8 +381,9 @@ __webpack_require__.d(exports, {
 /******/ 			8887: function() { return loadSingletonVersionCheckFallback("default", "react", [0,16,0,0], function() { return __webpack_require__.e(791).then(function() { return function() { return __webpack_require__(2791); }; }); }); },
 /******/ 			3637: function() { return loadSingletonVersionCheckFallback("default", "react", [0,16,11,0], function() { return __webpack_require__.e(791).then(function() { return function() { return __webpack_require__(2791); }; }); }); },
 /******/ 			8056: function() { return loadSingletonVersionCheckFallback("default", "react", [0,16,9,0], function() { return __webpack_require__.e(791).then(function() { return function() { return __webpack_require__(2791); }; }); }); },
-/******/ 			7243: function() { return loadSingletonVersionCheckFallback("default", "react-dom", [,[1,18],[1,17],[1,16],1,1], function() { return Promise.all([__webpack_require__.e(164), __webpack_require__.e(416)]).then(function() { return function() { return __webpack_require__(4164); }; }); }); },
-/******/ 			6737: function() { return loadSingletonVersionCheckFallback("default", "react", [,[1,18],[1,17],[1,16],1,1], function() { return __webpack_require__.e(791).then(function() { return function() { return __webpack_require__(2791); }; }); }); }
+/******/ 			8172: function() { return loadSingletonVersionCheckFallback("default", "react", [1,18,2,0], function() { return __webpack_require__.e(791).then(function() { return function() { return __webpack_require__(2791); }; }); }); },
+/******/ 			3410: function() { return loadSingletonVersionCheckFallback("default", "react", [0,15], function() { return __webpack_require__.e(791).then(function() { return function() { return __webpack_require__(2791); }; }); }); },
+/******/ 			2878: function() { return loadSingletonVersionCheckFallback("default", "react", [,[1,17,0,0],[1,16,0,0],[1,15,0,0],[2,0,14,0],1,1,1], function() { return __webpack_require__.e(791).then(function() { return function() { return __webpack_require__(2791); }; }); }); }
 /******/ 		};
 /******/ 		// no consumes in initial chunks
 /******/ 		var chunkMapping = {
@@ -441,10 +392,6 @@ __webpack_require__.d(exports, {
 /******/ 			],
 /******/ 			"138": [
 /******/ 				9138
-/******/ 			],
-/******/ 			"165": [
-/******/ 				7243,
-/******/ 				6737
 /******/ 			],
 /******/ 			"416": [
 /******/ 				8172
@@ -495,8 +442,6 @@ __webpack_require__.d(exports, {
 /******/ 				});
 /******/ 			}
 /******/ 		}
-/******/ 		__webpack_require__.f.consumes.consumesIds = Object.keys(moduleToHandlerMapping);
-/******/ 	
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/css loading */
@@ -552,11 +497,11 @@ __webpack_require__.d(exports, {
 /******/ 		}
 /******/ 		// object to store loaded CSS chunks
 /******/ 		var installedCssChunks = {
-/******/ 			334: 0
+/******/ 			179: 0
 /******/ 		};
 /******/ 		
 /******/ 		__webpack_require__.f.miniCss = function(chunkId, promises) {
-/******/ 			var cssChunks = {"116":1,"517":1,"530":1,"728":1,"777":1,"915":1};
+/******/ 			var cssChunks = {"517":1,"549":1};
 /******/ 			if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 			else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 				promises.push(installedCssChunks[chunkId] = loadStylesheet(chunkId).then(function() {
@@ -579,7 +524,7 @@ __webpack_require__.d(exports, {
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
-/******/ 			334: 0
+/******/ 			179: 0
 /******/ 		};
 /******/ 		
 /******/ 		__webpack_require__.f.j = function(chunkId, promises) {
@@ -591,7 +536,7 @@ __webpack_require__.d(exports, {
 /******/ 					if(installedChunkData) {
 /******/ 						promises.push(installedChunkData[2]);
 /******/ 					} else {
-/******/ 						if(!/^(138|416|500|556|747|777|82)$/.test(chunkId)) {
+/******/ 						if(!/^(138|416|500|556|747|82)$/.test(chunkId)) {
 /******/ 							// setup Promise in chunk cache
 /******/ 							var promise = new Promise(function(resolve, reject) { installedChunkData = installedChunks[chunkId] = [resolve, reject]; });
 /******/ 							promises.push(installedChunkData[2] = promise);
@@ -665,15 +610,11 @@ __webpack_require__.d(exports, {
 /******/ 	
 /************************************************************************/
 /******/ 	
-/******/ 	// module factories are used so entry inlining is disabled
+/******/ 	// module cache are used so entry inlining is disabled
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	var __webpack_exports__ = __webpack_require__(7902);
-/******/ 	app2 = __webpack_exports__;
+/******/ 	var __webpack_exports__ = __webpack_require__(8305);
 /******/ 	
-var __win__ = window.__isZMF__ ? window.rawWindow : window;
-              __win__.__ZMF_APP2_WEBPACK_MODULES__ = __win__.__ZMF_APP2_WEBPACK_MODULES__ || __webpack_modules__;
-
-              __win__.__ZMF_APP2_WEBPACK_REQUIRE__ = __win__.__ZMF_APP2_WEBPACK_REQUIRE__ || __webpack_require__;/******/ })()
+/******/ })()
 ;
-//# sourceMappingURL=app2.remoteEntry.js.map
+//# sourceMappingURL=main.439b51ca.js.map
