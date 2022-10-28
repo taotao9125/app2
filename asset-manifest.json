@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "https://taotao9125.github.io/app2/static/js/main.439b51ca.js",
+    "main.js": "https://taotao9125.github.io/app2/static/js/main.bd5082b4.js",
     "app2.js": "https://taotao9125.github.io/app2/app2.remoteEntry.js",
     "static/css/549.bac02e38.chunk.css": "https://taotao9125.github.io/app2/static/css/549.bac02e38.chunk.css",
     "static/js/549.c48048eb.chunk.js": "https://taotao9125.github.io/app2/static/js/549.c48048eb.chunk.js",
@@ -27,11 +27,11 @@
     "static/js/380.5869cb28.chunk.js": "https://taotao9125.github.io/app2/static/js/380.5869cb28.chunk.js",
     "static/js/164.0465dee0.chunk.js": "https://taotao9125.github.io/app2/static/js/164.0465dee0.chunk.js",
     "static/css/777.d02b6773.chunk.css": "https://taotao9125.github.io/app2/static/css/777.d02b6773.chunk.css",
-    "static/js/651.8710c437.chunk.js": "https://taotao9125.github.io/app2/static/js/651.8710c437.chunk.js",
+    "static/js/651.fbb1edc8.chunk.js": "https://taotao9125.github.io/app2/static/js/651.fbb1edc8.chunk.js",
     "static/media/logo.svg": "https://taotao9125.github.io/app2/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "https://taotao9125.github.io/app2/index.html",
     "static/media/index.cjs": "https://taotao9125.github.io/app2/static/media/index.26661e7b817165ad212a.cjs",
-    "main.439b51ca.js.map": "https://taotao9125.github.io/app2/static/js/main.439b51ca.js.map",
+    "main.bd5082b4.js.map": "https://taotao9125.github.io/app2/static/js/main.bd5082b4.js.map",
     "app2.remoteEntry.js.map": "https://taotao9125.github.io/app2/app2.remoteEntry.js.map",
     "549.bac02e38.chunk.css.map": "https://taotao9125.github.io/app2/static/css/549.bac02e38.chunk.css.map",
     "549.c48048eb.chunk.js.map": "https://taotao9125.github.io/app2/static/js/549.c48048eb.chunk.js.map",
@@ -58,9 +58,9 @@
     "380.5869cb28.chunk.js.map": "https://taotao9125.github.io/app2/static/js/380.5869cb28.chunk.js.map",
     "164.0465dee0.chunk.js.map": "https://taotao9125.github.io/app2/static/js/164.0465dee0.chunk.js.map",
     "777.d02b6773.chunk.css.map": "https://taotao9125.github.io/app2/static/css/777.d02b6773.chunk.css.map",
-    "651.8710c437.chunk.js.map": "https://taotao9125.github.io/app2/static/js/651.8710c437.chunk.js.map"
+    "651.fbb1edc8.chunk.js.map": "https://taotao9125.github.io/app2/static/js/651.fbb1edc8.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.439b51ca.js"
+    "static/js/main.bd5082b4.js"
   ]
 }
